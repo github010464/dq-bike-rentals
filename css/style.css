@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+html{      
+    overflow: smooth;
+}
+body{    
+    font-family: Roboto, Arial;
+}
+section:nth-child(even){
+    background-color: #444;
+}
+section:nth-child(odd){
+    background-color: #fff;
+}
+.home{     
+    background-image: url("../images/bike.jpg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100vh; 
+}
+.welcome{
+    padding-top: 70px;    
+}
+.tagline{
+    padding-top: 350px;
+}
+.page_title{
+    padding-top: 50px;
+}
+.bikes{
+    padding-left:10px;
+    padding-bottom: 40px;  
+}
+.img_thumbnail{
+    padding-right: 4px;
+    padding-bottom: 4px;
+    border-radius: 8px;
+}
+.services, .about{
+    height: 100vh;
+    padding-left: 10px;     
+}
+.services p, .about p{
+    padding: 0 200px 0 200px;
+}
+.services .first_paragraph,
+.about .first_paragraph{
+    padding-top: 30px;
+}
+.fa-user:hover{
+    color: goldenrod !important;
+}
+footer{
+    background-color: #333;   
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+}
+footer small{
+    letter-spacing: 1px;    
+    color: #ddd;
+}
+
+
+
+ 
